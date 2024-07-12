@@ -18,7 +18,7 @@ const Home = () => {
 
   const [isRotating, setIsRotating] = useState(false);
   const [currentStage, setCurrentStage] = useState(1);
-  const [isPlayingMusic, settIsPlayingMusic] = useState(false);
+  const [isPlayingMusic, settIsPlayingMusic] = useState(true);
 
   useEffect(() => { //handles all state change of music
     if (isPlayingMusic) {
