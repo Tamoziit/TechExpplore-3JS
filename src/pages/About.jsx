@@ -38,7 +38,7 @@ const About = () => {
         <h3 className="subhead-text">Work Experience</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            <i>Web Development Wizardry:</i> My Portfolio of Interactive and Immersive Projects 👀✨
+          <i>Accelerating Innovation:</i> My Hackathon and Technical Competition Achievements 🔥🏆
           </p>
         </div>
 
