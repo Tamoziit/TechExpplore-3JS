@@ -1,12 +1,13 @@
-import { useRef, useState } from "react"
+import { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
   const [isLoading, setIsLoading] = useState(false);
   const formRef = useRef(null);
 
-  const handleChange = () => {
-
+  const handleChange = (e) => {
+    setForm({ ...form, [e.target.name]: e.target.value })
   }
   //Click/typing engaged
   const handleFocus = () => {
@@ -17,8 +18,28 @@ const Contact = () => {
 
   }
 
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setIsLoading(true);
 
+    emailjs.send(
+      import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+      {
+        from_name: form.name,
+        to_name: "Tamojit Das",
+        from_email: form.email,
+        to_email: 'tamojitdas181007@gmail.com',
+        message: form.message
+      },
+      import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+    ).then(() => {
+      setIsLoading(false);
+      setForm({ name: '', email: '', message: '' });
+    }).catch((error) => {
+      setIsLoading(false);
+      console.log(error);
+    })
   }
 
   return (
@@ -58,7 +79,7 @@ const Contact = () => {
           <label className="text-black-500 font-semibold">
             Message
             <textarea
-              name="name"
+              name="message"
               className="textarea"
               rows={4}
               placeholder="Enter your Message. Let me know how can I help you!"
