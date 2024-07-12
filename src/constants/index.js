@@ -11,31 +11,128 @@ import {
     javascript,
     linkedin,
     mongodb,
-    motion,
     mui,
-    nextjs,
     nodejs,
     nemesis,
     react,
-    redux,
-    sass,
     instaForNoobs,
     gpt,
     tailwindcss,
     blog,
-    typescript
+    typescript,
+    C,
+    java,
+    python,
+    redis,
+    postgres,
+    linux,
+    Docker,
+    k8s,
+    nginx,
+    gcloud,
+    vercel
 } from "../assets/icons";
 
 export const skills = [
+    {
+        imageUrl: react,
+        name: "React",
+        type: "Frontend",
+    },
+    {
+        imageUrl: nodejs,
+        name: "Node.js",
+        type: "Backend",
+    },
+    {
+        imageUrl: express,
+        name: "Express",
+        type: "Backend",
+    },
+    {
+        imageUrl: mongodb,
+        name: "MongoDB",
+        type: "Database",
+    },
+    {
+        imageUrl: redis,
+        name: "Redis",
+        type: "Database",
+    },
+    {
+        imageUrl: postgres,
+        name: "Postgres",
+        type: "Database",
+    },
+    {
+        imageUrl: html,
+        name: "HTML",
+        type: "Frontend",
+    },
     {
         imageUrl: css,
         name: "CSS",
         type: "Frontend",
     },
     {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
+        imageUrl: javascript,
+        name: "JavaScript",
+        type: "Frontend",
+    },
+    {
+        imageUrl: typescript,
+        name: "TypeScript",
+        type: "Frontend",
+    },
+    {
+        imageUrl: tailwindcss,
+        name: "Tailwind CSS",
+        type: "Frontend",
+    },
+    {
+        imageUrl: mui,
+        name: "Material-UI",
+        type: "Frontend",
+    },
+    {
+        imageUrl: Docker,
+        name: "Docker",
+        type: "DevOps",
+    },
+    {
+        imageUrl: k8s,
+        name: "Kubernetes",
+        type: "DevOps",
+    },
+    {
+        imageUrl: nginx,
+        name: "NGINX",
+        type: "DevOps",
+    },
+    {
+        imageUrl: gcloud,
+        name: "Google Cloud",
+        type: "Cloud Computing",
+    },
+    {
+        imageUrl: C,
+        name: "C",
+        type: "Programming Language",
+    },
+    {
+        imageUrl: java,
+        name: "java",
+        type: "Programming Language",
+    },
+    {
+        imageUrl: python,
+        name: "python",
+        type: "Programming Language",
+    },
+    {
+        imageUrl: linux,
+        name: "Linux",
+        type: "OS",
     },
     {
         imageUrl: git,
@@ -48,64 +145,9 @@ export const skills = [
         type: "Version Control",
     },
     {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
+        imageUrl: vercel,
+        name: "Vercel",
+        type: "Deployment",
     }
 ];
 
