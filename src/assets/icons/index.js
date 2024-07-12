@@ -11,7 +11,7 @@ import react from './react.svg'
 import tailwindcss from './tailwindcss.svg'
 import typescript from './typescript.svg'
 import linkedin from './linkedin.svg'
-import twitter from './twitter.svg'
+import leetcode from './leetcode.png'
 import musica from './musica.svg'
 import redHope from './redHope.svg'
 import nemesis from './nemesis.svg'
@@ -33,6 +33,7 @@ import gcloud from "./gcloud.png"
 import linux from "./linux.png"
 import postgres from "./postgres.png"
 import vercel from "./vercel.png"
+import instagram from "./instagram.jpeg"
 
 export {
     css,
@@ -48,7 +49,7 @@ export {
     tailwindcss,
     typescript,
     linkedin,
-    twitter,
+    leetcode,
     musica,
     redHope,
     nemesis,
@@ -69,5 +70,6 @@ export {
     gcloud,
     linux,
     postgres,
-    vercel
+    vercel,
+    instagram
 }

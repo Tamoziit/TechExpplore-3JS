@@ -5,6 +5,8 @@ import Fox from "../models/Fox";
 import Loader from "../components/Loader";
 import useAlert from "../hooks/useAlert";
 import Alert from "../components/Alert";
+import { socialLinks } from "../constants";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
@@ -127,6 +129,24 @@ const Contact = () => {
             {isLoading ? 'Sending...' : 'Send Message'}
           </button>
         </form>
+
+        <div className="flex gap-2 mt-10 ml-2">
+          {socialLinks.map((social) => (
+            <Link
+              to={social.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              key={social.name}
+              className="w-8 h-8 flex justify-center items-center"
+            >
+              <img
+                src={social.iconUrl}
+                alt={social.name}
+                className="w-full h-full p-1"
+              />
+            </Link>
+          ))}
+        </div>
       </div>
 
       <div className="lg:w-1/2 w-full lg:h-auto md:h-[550px] h-[350px]">
@@ -140,6 +160,14 @@ const Contact = () => {
         >
           <directionalLight intensity={2.5} position={[0, 0, 1]} />
           <ambientLight intensity={0.5} />
+          <pointLight position={[5, 10, 0]} intensity={2} />
+          <spotLight
+            position={[10, 10, 10]}
+            angle={0.15}
+            penumbra={1}
+            intensity={2}
+          />
+
           <Suspense fallback={<Loader />}>
             <Fox
               currentAnimation={currentAnimation}

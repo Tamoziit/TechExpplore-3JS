@@ -1,7 +1,6 @@
 import { iisf, iitb, bit, fetsu } from "../assets/images";
 import {
     musica,
-    contact,
     css,
     redHope,
     express,
@@ -30,7 +29,9 @@ import {
     k8s,
     nginx,
     gcloud,
-    vercel
+    vercel,
+    leetcode,
+    instagram
 } from "../assets/icons";
 
 export const skills = [
@@ -210,19 +211,24 @@ export const experiences = [
 
 export const socialLinks = [
     {
-        name: 'Contact',
-        iconUrl: contact,
-        link: '/contact',
+        name: 'LinkedIn',
+        iconUrl: linkedin,
+        link: 'https://www.linkedin.com/in/tamojit-das-b77b62293',
     },
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/Tamoziit',
     },
     {
-        name: 'LinkedIn',
-        iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        name: 'Leetcode',
+        iconUrl: leetcode,
+        link: 'https://leetcode.com/u/Tamojit_Das/',
+    },
+    {
+        name: 'Instagram',
+        iconUrl: instagram,
+        link: 'https://www.instagram.com/tamoziit18/',
     }
 ];
 
