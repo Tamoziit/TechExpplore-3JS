@@ -1,13 +1,11 @@
-import hero from './hero.jpg'
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
+import iisf from "./iisf.png";
+import iitb from "./iitb.png";
+import bit from "./bit.png";
+import fetsu from "./fetsu.png";
 
 export {
-    hero,
-    meta,
-    shopify,
-    starbucks,
-    tesla
+    iisf,
+    iitb,
+    bit,
+    fetsu
 }

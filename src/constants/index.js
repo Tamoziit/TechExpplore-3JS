@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { iisf, iitb, bit, fetsu } from "../assets/images";
 import {
     musica,
     contact,
@@ -153,55 +153,57 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "SIF - Space Hackathon 2023 Finalist | Indian International Science Festival, 2023",
+        subject: "LULC & Economic Hotspots Detection",
+        icon: iisf,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "Dec 2023 - Jan 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Designed an interactive user interface using HTML5, CSS3 & JavaScript.",
+            "The project unveiled interconnected patterns and hotspots in synergized landscape dynamics.",
+            "It focussed on economic growth and environmental data.",
+            "The interface accepts landform maps of a region as input and predicts potential hotspots for economic growth.",
+            "It also analyzes landscape patterns and environmental data for informed decision-making."
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Task Whiz 2023 | Techfest, IIT Bombay",
+        subject: "Intelligent Task Management System",
+        icon: iitb,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "Nov 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Worked as a Web Developer in the \"Intelligent Task Management\" System project.",
+            "The project implemented a Smart Task Allocation System.",
+            "It included Predictive Task Prioritization features, Performance Analysis and Insights.",
+            "It had an Integrated Sentiment Analysis capabilities."
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Spider 4.0 : The Web Crawler | BIT Sindri",
+        subject: "RedHope : Blood Bank-cum-Blood Donation Website",
+        icon: bit,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        date: "Mar 2024 - May 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Created an Immersive user experience using React.js",
+            "Provides the feature to search for a required blood group from a datapool of Blood banks.",
+            "Book an appointment in a blood bank to donate blood.",
+            "Consult with doctors having a wide range of specializations.",
+            "Stay updated with latest events & awareness programs related to Blood Donation.",
+            "Stay updated with latest events & awareness programs related to Blood Donation."
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        title: "1st Runners up at Entropy 2024 | F.E.T.S.U. presents Srijan 2024, JU",
+        subject: "Revolution in the EV Sector",
+        icon: fetsu,
         iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        date: "Mar 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Worked as CMO on a proposed business model \"Vidyut\".",
+            "We aimed at mitigating prevalent problems with the present Lithium-ion batteries centric EV industry.",
+            "Our proposed  soluttion was to introduce Zinc-Manganese batteries with Nano-Bolt charging facility."
         ],
     },
 ];
